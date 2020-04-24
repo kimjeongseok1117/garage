@@ -18,3 +18,6 @@ export { NoticeRow } from "./NoticeRow";
 // 페이지 컴포넌트
 export { Detail } from "./Detail";
 export { UserTable } from "./UserTable";
+
+// 메인페이지 컴포넌트
+export { Button2 } from "./Button2";

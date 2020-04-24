@@ -1,5 +1,11 @@
+/**  @jsx jsx */
 import React from "react";
+import { jsx, css } from "@emotion/core";
 import { PageTemplate } from "../components";
+
+const Mainpages = ({
+  
+})
 
 const MainPage = () => {
   return (

@@ -1,11 +1,8 @@
 import React from "react";
+import { Button2 } from "../components";
 
 const MainPageContainer = () => {
-  return (
-    <>
-      <div>안녕하세요</div>
-    </>
-  );
+  return <Button2 />;
 };
 
 export default MainPageContainer;

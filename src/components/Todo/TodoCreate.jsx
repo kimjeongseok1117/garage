@@ -117,4 +117,4 @@ function TodoCreate() {
   );
 }
 
-export default React.memo(TodoCreate);
+export default TodoCreate;

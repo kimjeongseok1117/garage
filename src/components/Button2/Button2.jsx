@@ -7,7 +7,7 @@ function Button2({ children, size }) {
 }
 
 Button2.defaultProps = {
-  size: "medium",
+  size: "large",
 };
 
 export default Button2;

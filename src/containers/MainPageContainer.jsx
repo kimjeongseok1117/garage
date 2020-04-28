@@ -39,7 +39,7 @@ const MainPageContainer = () => {
         </Button2>
       </div>
       <div className="buttons">
-        <Button2 size="large" fullWidth>
+        <Button2 size="large" fullWidth className="custromizde-Button">
           Button
         </Button2>
         <Button2 size="large" color="gray" fullWidth>

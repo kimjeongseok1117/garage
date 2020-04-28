@@ -9,17 +9,22 @@ function Button2({
   color,
   outline,
   fullWidth,
-  onClick,
-  onMouseMove,
+  className,
+  ...rest
 }) {
   return (
     <button2
-      className={classNames("Button2", size, color, {
-        outline,
-        fullWidth,
-      })}
-      onClick={onClick}
-      onMouseMove={onMouseMove}
+      className={classNames(
+        "Button2",
+        size,
+        color,
+        {
+          outline,
+          fullWidth,
+        },
+        className
+      )}
+      {...rest}
     >
       {children}
     </button2>

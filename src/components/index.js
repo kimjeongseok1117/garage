@@ -21,7 +21,3 @@ export { UserTable } from "./UserTable";
 
 // 메인페이지 컴포넌트
 export { Button2 } from "./Button2";
-export { default as TodoCreate } from "./TodoCreate";
-export { default as TodoHead } from "./TodoHead";
-export { default as TodoItem } from "./TodoItem";
-export { default as TodoLsit } from "./TodoList";
